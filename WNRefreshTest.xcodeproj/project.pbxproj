@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64767A9AD2D11FE690AE1796 /* libPods-WNRefreshTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A10727C04D9323FB7F1A40D /* libPods-WNRefreshTestUITests.a */; };
+		7882081343E24113E1DDFF15 /* libPods-WNRefreshTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B1BB65572C4729D1E46B7D /* libPods-WNRefreshTestTests.a */; };
+		920D26421D6D86E00076CE4E /* YZJGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 920D263D1D6D86E00076CE4E /* YZJGifHeader.m */; };
+		920D26441D6D86E00076CE4E /* YZJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 920D26411D6D86E00076CE4E /* YZJRefreshHeader.m */; };
+		920D26511D6DA27A0076CE4E /* 加载GIF_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 920D264D1D6DA27A0076CE4E /* 加载GIF_1.JPG */; };
+		920D26521D6DA27A0076CE4E /* 加载GIF_2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 920D264E1D6DA27A0076CE4E /* 加载GIF_2.JPG */; };
+		920D26531D6DA27A0076CE4E /* 加载GIF_3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 920D264F1D6DA27A0076CE4E /* 加载GIF_3.JPG */; };
+		920D26541D6DA27A0076CE4E /* 加载GIF_4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 920D26501D6DA27A0076CE4E /* 加载GIF_4.JPG */; };
+		920D265E1D6DAA3C0076CE4E /* YZJBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 920D265D1D6DAA3C0076CE4E /* YZJBackFooter.m */; };
 		9225076B1D66D31200652DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9225076A1D66D31200652DB3 /* main.m */; };
 		9225076E1D66D31200652DB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9225076D1D66D31200652DB3 /* AppDelegate.m */; };
 		922507711D66D31200652DB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 922507701D66D31200652DB3 /* ViewController.m */; };
@@ -15,6 +24,9 @@
 		922507791D66D31200652DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922507771D66D31200652DB3 /* LaunchScreen.storyboard */; };
 		922507841D66D31200652DB3 /* WNRefreshTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 922507831D66D31200652DB3 /* WNRefreshTestTests.m */; };
 		9225078F1D66D31200652DB3 /* WNRefreshTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9225078E1D66D31200652DB3 /* WNRefreshTestUITests.m */; };
+		924EB0641D6E96DC000256D8 /* GiFHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 924EB0621D6E96DC000256D8 /* GiFHUD.m */; };
+		924EB0651D6E96DC000256D8 /* iconRotate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 924EB0631D6E96DC000256D8 /* iconRotate.gif */; };
+		FA1B1BA549A14138BB13667F /* libPods-WNRefreshTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79C05C1BDF46BEAF9384E9C4 /* libPods-WNRefreshTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08D4C04B239767BB93D310F4 /* Pods-WNRefreshTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WNRefreshTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WNRefreshTest/Pods-WNRefreshTest.release.xcconfig"; sourceTree = "<group>"; };
+		33E85D1EB829A7BCA1618CAC /* Pods-WNRefreshTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WNRefreshTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WNRefreshTestUITests/Pods-WNRefreshTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3C13DC80649EAE8D71534B2C /* Pods-WNRefreshTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WNRefreshTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WNRefreshTestUITests/Pods-WNRefreshTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4729D73F7AA3EA774640A998 /* Pods-WNRefreshTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WNRefreshTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WNRefreshTestTests/Pods-WNRefreshTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		553E4600E6B6AC6BA056022C /* Pods-WNRefreshTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WNRefreshTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WNRefreshTest/Pods-WNRefreshTest.debug.xcconfig"; sourceTree = "<group>"; };
+		5A10727C04D9323FB7F1A40D /* libPods-WNRefreshTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WNRefreshTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79C05C1BDF46BEAF9384E9C4 /* libPods-WNRefreshTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WNRefreshTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920D263C1D6D86E00076CE4E /* YZJGifHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJGifHeader.h; sourceTree = "<group>"; };
+		920D263D1D6D86E00076CE4E /* YZJGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJGifHeader.m; sourceTree = "<group>"; };
+		920D26401D6D86E00076CE4E /* YZJRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJRefreshHeader.h; sourceTree = "<group>"; };
+		920D26411D6D86E00076CE4E /* YZJRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJRefreshHeader.m; sourceTree = "<group>"; };
+		920D264D1D6DA27A0076CE4E /* 加载GIF_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加载GIF_1.JPG"; sourceTree = "<group>"; };
+		920D264E1D6DA27A0076CE4E /* 加载GIF_2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加载GIF_2.JPG"; sourceTree = "<group>"; };
+		920D264F1D6DA27A0076CE4E /* 加载GIF_3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加载GIF_3.JPG"; sourceTree = "<group>"; };
+		920D26501D6DA27A0076CE4E /* 加载GIF_4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "加载GIF_4.JPG"; sourceTree = "<group>"; };
+		920D265C1D6DAA3C0076CE4E /* YZJBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZJBackFooter.h; sourceTree = "<group>"; };
+		920D265D1D6DAA3C0076CE4E /* YZJBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZJBackFooter.m; sourceTree = "<group>"; };
 		922507661D66D31200652DB3 /* WNRefreshTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNRefreshTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9225076A1D66D31200652DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9225076C1D66D31200652DB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +80,11 @@
 		9225078A1D66D31200652DB3 /* WNRefreshTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNRefreshTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9225078E1D66D31200652DB3 /* WNRefreshTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNRefreshTestUITests.m; sourceTree = "<group>"; };
 		922507901D66D31200652DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		924EB0611D6E96DC000256D8 /* GiFHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiFHUD.h; sourceTree = "<group>"; };
+		924EB0621D6E96DC000256D8 /* GiFHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiFHUD.m; sourceTree = "<group>"; };
+		924EB0631D6E96DC000256D8 /* iconRotate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = iconRotate.gif; sourceTree = "<group>"; };
+		B0B1BB65572C4729D1E46B7D /* libPods-WNRefreshTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WNRefreshTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D179F2368E13C2BF257CD26E /* Pods-WNRefreshTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WNRefreshTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WNRefreshTestTests/Pods-WNRefreshTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1B1BA549A14138BB13667F /* libPods-WNRefreshTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7882081343E24113E1DDFF15 /* libPods-WNRefreshTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +108,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64767A9AD2D11FE690AE1796 /* libPods-WNRefreshTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E5426EEA79E9F766DCC872B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79C05C1BDF46BEAF9384E9C4 /* libPods-WNRefreshTest.a */,
+				B0B1BB65572C4729D1E46B7D /* libPods-WNRefreshTestTests.a */,
+				5A10727C04D9323FB7F1A40D /* libPods-WNRefreshTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A4305021FBD66D75C3D2934 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				553E4600E6B6AC6BA056022C /* Pods-WNRefreshTest.debug.xcconfig */,
+				08D4C04B239767BB93D310F4 /* Pods-WNRefreshTest.release.xcconfig */,
+				4729D73F7AA3EA774640A998 /* Pods-WNRefreshTestTests.debug.xcconfig */,
+				D179F2368E13C2BF257CD26E /* Pods-WNRefreshTestTests.release.xcconfig */,
+				3C13DC80649EAE8D71534B2C /* Pods-WNRefreshTestUITests.debug.xcconfig */,
+				33E85D1EB829A7BCA1618CAC /* Pods-WNRefreshTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9225075D1D66D31200652DB3 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +145,8 @@
 				922507821D66D31200652DB3 /* WNRefreshTestTests */,
 				9225078D1D66D31200652DB3 /* WNRefreshTestUITests */,
 				922507671D66D31200652DB3 /* Products */,
+				2A4305021FBD66D75C3D2934 /* Pods */,
+				1E5426EEA79E9F766DCC872B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +163,17 @@
 		922507681D66D31200652DB3 /* WNRefreshTest */ = {
 			isa = PBXGroup;
 			children = (
+				924EB0611D6E96DC000256D8 /* GiFHUD.h */,
+				924EB0621D6E96DC000256D8 /* GiFHUD.m */,
+				924EB0631D6E96DC000256D8 /* iconRotate.gif */,
+				920D264D1D6DA27A0076CE4E /* 加载GIF_1.JPG */,
+				920D264E1D6DA27A0076CE4E /* 加载GIF_2.JPG */,
+				920D264F1D6DA27A0076CE4E /* 加载GIF_3.JPG */,
+				920D26501D6DA27A0076CE4E /* 加载GIF_4.JPG */,
+				920D263C1D6D86E00076CE4E /* YZJGifHeader.h */,
+				920D263D1D6D86E00076CE4E /* YZJGifHeader.m */,
+				920D26401D6D86E00076CE4E /* YZJRefreshHeader.h */,
+				920D26411D6D86E00076CE4E /* YZJRefreshHeader.m */,
 				9225076C1D66D31200652DB3 /* AppDelegate.h */,
 				9225076D1D66D31200652DB3 /* AppDelegate.m */,
 				9225076F1D66D31200652DB3 /* ViewController.h */,
@@ -110,6 +183,8 @@
 				922507771D66D31200652DB3 /* LaunchScreen.storyboard */,
 				9225077A1D66D31200652DB3 /* Info.plist */,
 				922507691D66D31200652DB3 /* Supporting Files */,
+				920D265C1D6DAA3C0076CE4E /* YZJBackFooter.h */,
+				920D265D1D6DAA3C0076CE4E /* YZJBackFooter.m */,
 			);
 			path = WNRefreshTest;
 			sourceTree = "<group>";
@@ -147,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 922507931D66D31200652DB3 /* Build configuration list for PBXNativeTarget "WNRefreshTest" */;
 			buildPhases = (
+				C45CB0C16C66FF00D8702A7E /* [CP] Check Pods Manifest.lock */,
 				922507621D66D31200652DB3 /* Sources */,
 				922507631D66D31200652DB3 /* Frameworks */,
 				922507641D66D31200652DB3 /* Resources */,
+				7D66822D4BE90E288E08F9EC /* [CP] Embed Pods Frameworks */,
+				59539BE3BDCEDDD11EBF9CAE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 922507961D66D31200652DB3 /* Build configuration list for PBXNativeTarget "WNRefreshTestTests" */;
 			buildPhases = (
+				A6C3BE7DCA582F3FE4AE8713 /* [CP] Check Pods Manifest.lock */,
 				9225077B1D66D31200652DB3 /* Sources */,
 				9225077C1D66D31200652DB3 /* Frameworks */,
 				9225077D1D66D31200652DB3 /* Resources */,
+				5AD1800D6436BC344AEAF01D /* [CP] Embed Pods Frameworks */,
+				70F0338F1857AE75C65A4989 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 922507991D66D31200652DB3 /* Build configuration list for PBXNativeTarget "WNRefreshTestUITests" */;
 			buildPhases = (
+				3C0DE11202A6B25C636006A9 /* [CP] Check Pods Manifest.lock */,
 				922507861D66D31200652DB3 /* Sources */,
 				922507871D66D31200652DB3 /* Frameworks */,
 				922507881D66D31200652DB3 /* Resources */,
+				87C8225671AD5F54CBBADDBE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +290,7 @@
 				TargetAttributes = {
 					922507651D66D31200652DB3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4DGQ3K7792;
 					};
 					9225077E1D66D31200652DB3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -243,9 +327,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920D26541D6DA27A0076CE4E /* 加载GIF_4.JPG in Resources */,
 				922507791D66D31200652DB3 /* LaunchScreen.storyboard in Resources */,
+				924EB0651D6E96DC000256D8 /* iconRotate.gif in Resources */,
+				920D26521D6DA27A0076CE4E /* 加载GIF_2.JPG in Resources */,
+				920D26511D6DA27A0076CE4E /* 加载GIF_1.JPG in Resources */,
 				922507761D66D31200652DB3 /* Assets.xcassets in Resources */,
 				922507741D66D31200652DB3 /* Main.storyboard in Resources */,
+				920D26531D6DA27A0076CE4E /* 加载GIF_3.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +354,141 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C0DE11202A6B25C636006A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		59539BE3BDCEDDD11EBF9CAE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WNRefreshTest/Pods-WNRefreshTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD1800D6436BC344AEAF01D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WNRefreshTestTests/Pods-WNRefreshTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70F0338F1857AE75C65A4989 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WNRefreshTestTests/Pods-WNRefreshTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D66822D4BE90E288E08F9EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WNRefreshTest/Pods-WNRefreshTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C8225671AD5F54CBBADDBE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WNRefreshTestUITests/Pods-WNRefreshTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6C3BE7DCA582F3FE4AE8713 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C45CB0C16C66FF00D8702A7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		922507621D66D31200652DB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				922507711D66D31200652DB3 /* ViewController.m in Sources */,
+				920D26421D6D86E00076CE4E /* YZJGifHeader.m in Sources */,
 				9225076E1D66D31200652DB3 /* AppDelegate.m in Sources */,
+				920D265E1D6DAA3C0076CE4E /* YZJBackFooter.m in Sources */,
+				920D26441D6D86E00076CE4E /* YZJRefreshHeader.m in Sources */,
 				9225076B1D66D31200652DB3 /* main.m in Sources */,
+				924EB0641D6E96DC000256D8 /* GiFHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,28 +629,35 @@
 		};
 		922507941D66D31200652DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553E4600E6B6AC6BA056022C /* Pods-WNRefreshTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WNRefreshTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhenai.WNRefreshTest;
+				PRODUCT_BUNDLE_IDENTIFIER = zhenai.WNRefreshTest.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		922507951D66D31200652DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D4C04B239767BB93D310F4 /* Pods-WNRefreshTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = WNRefreshTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = zhenai.WNRefreshTest;
+				PRODUCT_BUNDLE_IDENTIFIER = zhenai.WNRefreshTest.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		922507971D66D31200652DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4729D73F7AA3EA774640A998 /* Pods-WNRefreshTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WNRefreshTestTests/Info.plist;
@@ -447,6 +670,7 @@
 		};
 		922507981D66D31200652DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D179F2368E13C2BF257CD26E /* Pods-WNRefreshTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = WNRefreshTestTests/Info.plist;
@@ -459,6 +683,7 @@
 		};
 		9225079A1D66D31200652DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C13DC80649EAE8D71534B2C /* Pods-WNRefreshTestUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WNRefreshTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +695,7 @@
 		};
 		9225079B1D66D31200652DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33E85D1EB829A7BCA1618CAC /* Pods-WNRefreshTestUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = WNRefreshTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +724,7 @@
 				922507951D66D31200652DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		922507961D66D31200652DB3 /* Build configuration list for PBXNativeTarget "WNRefreshTestTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +733,7 @@
 				922507981D66D31200652DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		922507991D66D31200652DB3 /* Build configuration list for PBXNativeTarget "WNRefreshTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +742,7 @@
 				9225079B1D66D31200652DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
